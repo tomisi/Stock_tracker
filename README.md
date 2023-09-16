@@ -12,7 +12,6 @@ The Stock Tracker is a Python-based command-line application designed to track s
 - [Customization](#customization)
   - [Data Storage](#data-storage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Project Structure
 
@@ -41,12 +40,6 @@ The Stock Tracker project is organized into the following folders and files:
 ### Exit
 
 - Exit the application.
-
-## Customization
-
-### Data Storage
-
-- The `data_storage.py` script contains example functions for saving and retrieving alerts. You can customize this script to use your preferred data storage method, such as a file or a database.
 
 ## Contributing
 
