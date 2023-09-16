@@ -1,8 +1,8 @@
 import requests
 
 def fetch_stock_data(symbol):
-    api_key = "YOUR_API_KEY"  # Replace with your API key
-    url = f"https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={symbol}&interval=1min&apikey={api_key}"
+    api_key = "BQGXAGW7A92ZTAYO"
+    url = f"https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={symbol}&interval=1min&apikey={api_key}" # API endpoint
     
     response = requests.get(url)
     
