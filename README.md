@@ -5,7 +5,6 @@ The Stock Tracker is a Python-based command-line application designed to track s
 ## Table of Contents
 
 - [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
 - [Features](#features)
   - [Tracking Stocks](#tracking-stocks)
   - [Setting Price Alerts](#setting-price-alerts)
@@ -24,16 +23,6 @@ The Stock Tracker project is organized into the following folders and files:
 - `data/`: Contains functions for data storage and retrieval (e.g., saving and retrieving user alerts).
 - `main.py`: The main script serving as the entry point for the application.
 - `README.md`: Documentation file (this document).
-
-## Setup
-
-### Prerequisites
-
-Before running the Stock Tracker application, ensure you have the following prerequisites:
-
-- Python 3.x installed on your system.
-- An Alpha Vantage API key (replace `"YOUR_ALPHA_VANTAGE_API_KEY"` in the code with your actual API key).
-  Main Menu
   
 ## Features
 
