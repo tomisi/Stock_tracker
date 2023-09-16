@@ -1,6 +1,6 @@
 The Stock Tracker is a Python-based command-line application designed to track stock prices, set price alerts, and monitor alerts for specific stocks. This documentation provides an overview of the project's structure, functionality, and usage.
 
-Table of Contents
+#Table of Contents
 Project Structure
 Setup
 Prerequisites
