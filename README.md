@@ -47,7 +47,7 @@ There are two primary methods for installing the Stock Tracker:
 
 #### Manual Installation (Project Download):
 
-1. Download the project's source code from a relevant source (e.g., GitHub).
+1. Download the project's source code https://github.com/tomisi/Stock_tracker.git.
 2. Navigate to the downloaded directory using your terminal's `cd` command.
 3. Assuming the project utilizes a `requirements.txt` file to list dependencies, install them using the following command:
     ```bash
@@ -56,6 +56,6 @@ There are two primary methods for installing the Stock Tracker:
 
 #### Git Clone (For Developers):
 
-If you intend to contribute to the project's development, clone it from a version control system like Git using the following command (replace `<username>` with your Git username):
+If you intend to contribute to the project's development, clone it from a version control system like Git using the following command:
 ```bash
-git clone https://github.com/<username>/Stock-Tracker.git
+git clone https://github.com/tomisi/Stock_tracker.git
