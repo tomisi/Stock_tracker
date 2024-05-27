@@ -59,3 +59,6 @@ There are two primary methods for installing the Stock Tracker:
 If you intend to contribute to the project's development, clone it from a version control system like Git using the following command:
 ```bash
 git clone https://github.com/tomisi/Stock_tracker.git
+
+![Screenshot (633)](https://github.com/tomisi/Stock_tracker/assets/65241457/e367d6f9-e675-4264-8ec1-bdb64afc28bf)
+
