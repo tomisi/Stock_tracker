@@ -1,46 +1,61 @@
 # Stock Tracker
 
-The Stock Tracker is a Python-based command-line application designed to track stock prices, set price alerts, and monitor alerts for specific stocks.
+## Introduction
+
+The Stock Tracker is a command-line application written in Python that empowers users to track stock prices, establish price alerts, and monitor those alerts for specific stocks. This documentation serves as a comprehensive guide, outlining the project's structure, functionalities, and usage instructions.
 
 ## Table of Contents
 
 - [Project Structure](#project-structure)
-- [Features](#features)
-  - [Tracking Stocks](#tracking-stocks)
-  - [Setting Price Alerts](#setting-price-alerts)
-  - [Checking Alerts](#checking-alerts)
-- [Customization](#customization)
+- [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+  - [Running the Application](#running-the-application)
+  - [Main Menu](#main-menu)
+  - [Features](#features)
+    - [Tracking Stocks](#tracking-stocks)
+    - [Setting Price Alerts](#setting-price-alerts)
+    - [Checking Alerts](#checking-alerts)
+  - [Customization](#customization)
   - [Data Storage](#data-storage)
 - [Contributing](#contributing)
+- [License](#license)
 
 ## Project Structure
 
-The Stock Tracker project is organized into the following folders and files:
+The Stock Tracker project is meticulously organized using a modular directory structure:
 
-- `api/`: Contains functions for fetching stock data from an API.
-- `alerts/`: Contains functions for setting, checking, and managing price alerts.
-- `data/`: Contains functions for data storage and retrieval (e.g., saving and retrieving user alerts).
-- `main.py`: The main script serving as the entry point for the application.
-- `README.md`: Documentation file (this document).
-  
-## Features
+- **api/**: This directory houses functions dedicated to retrieving stock data from an external API.
+- **alerts/**: This directory contains functions for managing price alerts, including setting, checking, and handling them.
+- **data/**: This directory contains functions for data storage and retrieval, such as saving and retrieving user-defined alerts.
+- **main.py**: This script serves as the application's entry point, orchestrating the overall functionality.
+- **README.md**: This file serves as the project's primary documentation, providing a clear understanding of its purpose and usage.
 
-### Track Stock
+## Setup
 
-- Fetch and display the current stock price for a specific symbol.
+### Prerequisites
 
-### Set Price Alert
+Before embarking on using the Stock Tracker, ensure your system meets the following requirements:
 
-- Set a price alert for a stock symbol, specifying a threshold price.
+- **Python 3.x**: A functional installation of Python 3.x is mandatory. To verify this, open your terminal and execute the command `python --version` (or `python3 --version` on some systems). If Python 3.x is not installed, download and install it from the [official website](https://www.python.org/downloads/).
+- **Alpha Vantage API Key**: To fetch live stock data, you'll necessitate an API key from Alpha Vantage. You can obtain a free API key by creating an account on their website: [Alpha Vantage](https://www.alphavantage.co/).
 
-### Check Alerts
+### Installation
 
-- Check for price alerts you've set. If any threshold is crossed, the application notifies you.
+There are two primary methods for installing the Stock Tracker:
 
-### Exit
+#### Manual Installation (Project Download):
 
-- Exit the application.
+1. Download the project's source code from a relevant source (e.g., GitHub).
+2. Navigate to the downloaded directory using your terminal's `cd` command.
+3. Assuming the project utilizes a `requirements.txt` file to list dependencies, install them using the following command:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-## Contributing
+#### Git Clone (For Developers):
 
-Contributions to this project are welcome! You can fork the repository, make improvements, and create a pull request.
+If you intend to contribute to the project's development, clone it from a version control system like Git using the following command (replace `<username>` with your Git username):
+```bash
+git clone https://github.com/<username>/Stock-Tracker.git
